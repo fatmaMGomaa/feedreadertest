@@ -119,6 +119,7 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
+        // this idea from https://www.youtube.com/watch?v=eUdkhVkpCf8&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s&index=4
         let firstFeed, secondFeed;
         beforeEach(function (done) {
             loadFeed(0, function () {
